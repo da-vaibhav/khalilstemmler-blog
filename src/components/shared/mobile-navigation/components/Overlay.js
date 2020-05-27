@@ -41,7 +41,7 @@ const Overlay = props => {
         toggleBurgerMenu={props.toggleBurgerMenu}
       />
       <OverlayLink
-        path={"/resources"}
+        path={"/books"}
         displayName="/resources"
         toggleBurgerMenu={props.toggleBurgerMenu}
       />
