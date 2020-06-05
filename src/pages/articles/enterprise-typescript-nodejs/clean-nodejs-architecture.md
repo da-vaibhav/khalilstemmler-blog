@@ -71,7 +71,7 @@ So let's see what that looks like:
 
 _Those small half-circles are meant to signify writing interfaces (at the policy level) to be implemented by the detail level_.
 
-This diagram is a sort of simplification of all of the other diagrams I found. There's more than just these two layers. But for our understanding of the concept, its much easier to think about a clean architecture like this.
+This diagram is a sort of simplification of all of the other diagrams I found. There's more than just these two layers (read "[Organizing App Logic with the Clean Architecture](/articles/software-design-architecture/organizing-app-logic/)" for a more detailed depiction). But for our understanding of the concept, its much easier to think about a clean architecture like this.
 
 <u>So what does this mean?</u>
 

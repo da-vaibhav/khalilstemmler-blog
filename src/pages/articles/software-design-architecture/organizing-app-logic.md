@@ -1,6 +1,6 @@
 ---
 templateKey: article
-title: "The 6 Most Common Types of Logic in Large Applications [with Examples]"
+title: "Organizing App Logic with the Clean Architecture [with Examples]"
 date: '2019-09-16T10:04:10-05:00'
 updated: '2019-09-16T10:04:10-05:00'
 description: >-
