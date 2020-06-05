@@ -14,9 +14,9 @@ image: /img/blog/enterprise-node/enterprise-node.png
 published: true
 ---
 
-There are several ways to design systems. When I first starting building applications, I would start out with the database. Eventually, I realized that the view dictates the data, so I moved to starting out with the UI. Then I realized that I was failing to represent a lot of important business rules, so began to search for something else.
+There are several ways to design systems. When I first starting building applications, I would start out with the database. Eventually, I realized that the view dictates the data, so I moved to starting out with the UI. Then I realized that I was failing to represent a lot of important business rules, so I began to search for something else.
 
-Eventually, I found [Domain-Driven Design](/articles/domain-driven-design-intro/) and starting building applications by first understanding the domain, then working from the [domain layer](/articles/enterprise-typescript-nodejs/clean-nodejs-architecture/) upwards.
+Eventually I found [Domain-Driven Design](/articles/domain-driven-design-intro/) and starting building applications by first understanding the domain, then working upwards from the [domain layer](/articles/enterprise-typescript-nodejs/clean-nodejs-architecture/).
 
 I then realized the utility of [domain events](/articles/typescript-domain-driven-design/chain-business-logic-domain-events/) and the fact that you can illustrate an entire business's operations on a timeline with domain events.
 
