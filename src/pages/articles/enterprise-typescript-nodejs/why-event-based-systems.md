@@ -24,7 +24,7 @@ Designing systems from domain events instead of columns in a database, endpoints
 
 Here are just a few.
 
-## Communcation 
+## Communication 
 
 Thinking in terms of domain events is the closest we can get to expressing what happens in the real world. Features can be communicated by non-technical folk as a series of domain events.
 

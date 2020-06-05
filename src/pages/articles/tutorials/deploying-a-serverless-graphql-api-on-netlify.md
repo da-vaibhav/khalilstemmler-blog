@@ -218,7 +218,7 @@ In `functions`, create a file called `graphql.js`.
 touch functions/graphql.js
 ```
 
-Whatever we put in the `functions` folder, Netlify will make it publically visible as if it were in a directory.
+Whatever we put in the `functions` folder, Netlify will make it publicly visible as if it were in a directory.
 
 When we deploy this, we will be able to reach this file directly by going to https://OUR_SITE_NAME/.netlify/functions/graphql.
 

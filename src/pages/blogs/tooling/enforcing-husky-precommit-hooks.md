@@ -24,7 +24,7 @@ On most projects I've ever worked collaboratively on, _someone_ takes the role o
 
 Quality includes both the chosen **coding conventions** in addition to the **formatting** of the code.
 
-Today, it's good practice in JavaScript projects to utlize [ESLint](/blogs/typescript/eslint-for-typescript/) to define the project's coding conventions. For example, how does your team feel about using `for` loops? What about semicolons- are those required? Etc.
+Today, it's good practice in JavaScript projects to utilize [ESLint](/blogs/typescript/eslint-for-typescript/) to define the project's coding conventions. For example, how does your team feel about using `for` loops? What about semicolons- are those required? Etc.
 
 Those are conventions.
 

@@ -16,7 +16,7 @@ You know [Sequelize](http://docs.sequelizejs.com/), [TypeORM](https://github.com
 
 Those are all ORMs. When you return an instance of a row (or document), being able to make changes to the database row (that the instance references) is a popular usage of the Active Record pattern.
 
-The Active Record patttern was initially documented by [Martin Fowler](https://en.wikipedia.org/wiki/Active_record_pattern) 
+The Active Record pattern was initially documented by [Martin Fowler](https://en.wikipedia.org/wiki/Active_record_pattern) 
 
 ```typescript
 // Updating the 'name' column of a user using Sequelize.

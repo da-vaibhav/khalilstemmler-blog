@@ -8,12 +8,12 @@ prerequisites: null
 date: '2020-03-07T00:05:26-04:00'
 updated: '2020-03-07T00:05:26-04:00'
 image: null
-plaindescription: Pascal Case is a naming convention that promotes naming indentifiers using all upper-case words.
+plaindescription: Pascal Case is a naming convention that promotes naming identifiers using all upper-case words.
 ---
 
 Pascal case (or should I say `PascalCase`) is one of three primary **capitalization conventions** (underscore, Pascal, and [camel](/wiki/conventions/camel-case/)) used in programming languages.
 
-Pascal case dictates that each word in an indentifier be **capitalized** with **no separators (like underscores) in between them**.
+Pascal case dictates that each word in an identifier be **capitalized** with **no separators (like underscores) in between them**.
 
 _Not pascal case_
 

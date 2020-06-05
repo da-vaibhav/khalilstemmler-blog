@@ -44,9 +44,11 @@ const Menu = () => {
           { name: 'About', url: '/about' },
           { name: 'Articles', url: '/articles' },
           { name: 'Blog', url: '/blog' },
+          { name: 'Courses', url: '/courses' },
+          { name: 'Books', url: '/books' },
+          { name: 'Newsletter', url: '/newsletter' },
           { name: 'Portfolio', url: '/portfolio' },
           { name: 'Wiki', url: '/wiki' }
-          // TODO: Put the rest of the navigation links here
         ]}
       />
       <MenuList
