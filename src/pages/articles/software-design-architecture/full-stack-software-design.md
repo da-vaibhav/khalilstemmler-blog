@@ -107,7 +107,7 @@ Below is the map for software design and architecture.
 
 The very first step towards creating long-lasting software is figuring out how to write **clean code**. 
 
-Clean code is code that is easy to understand and change. At the low-level, this manifests in a few design choices like:
+If you ask anyone what they think constitutes _clean code_, you'll probably get a different answer every time. A lot of times, you'll hear that _clean code_ is code that is easy to understand and change. At the low-level, this manifests in a few design choices like:
 
 - being consistent
 - preferring meaningful variable, method and class names over writing comments
@@ -116,16 +116,34 @@ Clean code is code that is easy to understand and change. At the low-level, this
 - writing pure functions with no side effects
 - not passing null 
 
-Writing clean code is incredibly important. 
+These may seem like small things, but think of it like a game of Jenga. In order to keep the structure of our project stable over time, things like indentation, small classes and methods, and meaningful names, pay off a lot in the long run. 
 
-Think of it like a game of jenga.
+If you ask me, this aspect of _clean code_ is about having good **coding conventions** and following them. 
 
-In order to keep the structure of our project stable over time, things like indentation, small classes and methods, and meaningful names, pay off a lot in the long run. 
+I belive that's only _one_ aspect of writing _clean code_.
+
+My definitive explanation of clean code consists of:
+
+- 🧠 Your developer mindset (empathy, craftsmanship, growth mindset, design thinking)
+- ⚙️ Your coding conventions (naming things, refactoring, testing, etc)
+- 🤹🏼 Your skills & knowledge (of patterns, principles, and how to avoid code smells and anti-patterns)
+
+Getting into the right mindset is incredibly important if you want to write clean code. One requirement is that you should care enough to learn about the business you're writing code within. If we don't care about the domain enough to understand it, then how can we be sure we're using **good names** to represent domain concepts? How can we be sure that we've accurately captured the functional requirements? 
+
+If we don't care about the code that we're writing, it's a lot less likely that we're going to implement essential coding conventions, have meaningful discussions, and ask for feedback on our solutions.
+
+We often think that code is solely written to serve the needs of the _end user_, but we forget the **other people we write code for**: us, our teammates, and the project's future maintainers. Having an understanding of the principles of _design_ and how human psychology decides what is _good_ and _bad_ design, will help us write better code.
+
+So essentially, the best word that describes this step of your journey? **Empathy**.
+
+Once we've got that down, learn the _tricks of the trade_ and continue to improve them them over time by improving your knowledge of the essential software development patterns and principles.
 
 ### Learning resources
 
 - Clean Code, by Robert C. Martin
 - Refactoring, by Martin Fowler (2nd edition)
+- The Pragmatic Programmer, by Andy Hunt and Dave Thomas
+- The Design of Everyday Things, by Don Norman
 
 The best resource to learn how to write clean code is Uncle Bob's book, "[Clean Code](https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)".
 
