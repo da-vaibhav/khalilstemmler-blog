@@ -16,6 +16,8 @@ published: true
 
 Originally published here April 2019, with discussions on [Hackernews](https://news.ycombinator.com/item?id=19597359) and [Reddit](https://www.reddit.com/r/javascript/comments/baj49w/when_to_use_typescript_a_detailed_guide_through/).
 
+<p class="special-quote">Translated by readers to: <a href="https://www.infoq.cn/article/tLbx8Sg6r6AkjlTCK5Tj">Chinese (中文)</a></p>
+
 ***
 
 Have you heard of that little programming language called **TypeScript**? You know, the one that Microsoft made? The one that's kinda [blowing up](https://redmonk.com/sogrady/2019/03/20/language-rankings-1-19/?utm_campaign=digest&utm_medium=email&utm_source=nuzzel)? 
