@@ -9,7 +9,7 @@ const content = [
   {
     title: 'How to Learn Software Design and Architecture | The Full-stack Software Design & Architecture Map',
     link: '/articles/software-design-architecture/full-stack-software-design/',
-    description: `Software Design and Architecture is pretty much it's own field of study within the realm of computing, like DevOps or UX Design. Here's a map describing the breadth of software design and architecture, from clean code to microkernels.`
+    description: `Software Design and Architecture is pretty much its own field of study within the realm of computing, like DevOps or UX Design. Here's a map describing the breadth of software design and architecture, from clean code to microkernels.`
   },
   { 
     title: '[Series] Domain-Driven Design w/ TypeScript and Node.js',

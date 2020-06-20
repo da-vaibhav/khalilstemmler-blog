@@ -4,7 +4,7 @@ title: "How to Learn Software Design and Architecture | The  Full-stack Software
 date: '2019-09-28T10:04:10-05:00'
 updated: '2019-10-05T10:04:10-05:00'
 description: >-
-  Software Design and Architecture is pretty much it's own field of study within the realm of computing, like DevOps or UX Design. Here's a map describing the breadth of software design and architecture, from clean code to microkernels.
+  Software Design and Architecture is pretty much its own field of study within the realm of computing, like DevOps or UX Design. Here's a map describing the breadth of software design and architecture, from clean code to microkernels.
 tags:
   - Architecture
   - Software Design
