@@ -1208,7 +1208,7 @@ I know this article expressed a lot of new ideas. To be completely honest, I spe
 
 But let's look at where we've covered. Zooming out, we started with this:
 
-![img/blog/client-side-architecture/Frame_35_(1).png](/img/blog/client-side-architecture/Frame_35_(1).png)
+![img/blog/client-side-architecture/Untitled.png](/img/blog/client-side-architecture/Untitled.png)
 
 And then zooming in, we landed on this:
 
