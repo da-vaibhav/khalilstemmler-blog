@@ -23,9 +23,6 @@ if (isProd) {
 ReactGA.initialize(id)
 
 exports.onRouteUpdate = ({ location, prevLocation }) => {
-  console.log('new pathname', location.pathname)
-  console.log('old pathname', prevLocation ? prevLocation.pathname : null)
-
   ReactGA.pageview(location.pathname + location.search + location.hash)
 }
 
@@ -80,7 +77,65 @@ function toggleExpandableSection(id) {
       el.classList.add('visible');
     }
   }
-  
 }
 
+// exports.onInitialClientRender = (_, pluginOptions) => { 
+//   let offsetY = 0;
+  
+//   console.log(pluginOptions)
+//   if (pluginOptions.offsetY) { 
+//     debugger;
+//     offsetY = pluginOptions.offsetY 
+//   } 
+
+//   const getTargetOffset = hash => {
+//     const id = window.decodeURI(hash.replace(`#`, ``))
+//     if (id !== ``) {
+//       const element = document.getElementById(id)
+//       if (element) {
+//         let scrollTop =
+//           window.pageYOffset ||
+//           document.documentElement.scrollTop ||
+//           document.body.scrollTop
+//         let clientTop =
+//           document.documentElement.clientTop || document.body.clientTop || 0
+//         let computedStyles = window.getComputedStyle(element)
+//         let scrollMarginTop =
+//           computedStyles.getPropertyValue(`scroll-margin-top`) ||
+//           computedStyles.getPropertyValue(`scroll-snap-margin-top`) ||
+//           `0px`
+  
+//         return (
+//           element.getBoundingClientRect().top +
+//           scrollTop -
+//           parseInt(scrollMarginTop, 10) -
+//           clientTop -
+//           offsetY
+//         )
+//       }
+//     }
+//     return null
+//   }
+ 
+//   requestAnimationFrame(() => { 
+//     const offset = getTargetOffset(window.location.hash) 
+//     if (offset !== null) { 
+//       window.scrollTo(0, offset) 
+//     } 
+//   }) 
+// } 
+
 window.toggleExpandableSection = toggleExpandableSection;
+
+window.onhashchange = function () {
+  let hashElements = window.location.hash.split("#");
+
+  if (hashElements.length >= 2) {
+    
+     let element = document.getElementById(hashElements[1]);
+
+      if (element) {
+        window.scrollTo(0, element.offsetTop - 120)
+      }
+  }  
+}

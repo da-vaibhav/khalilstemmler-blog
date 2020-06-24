@@ -104,7 +104,8 @@ class Article extends React.Component {
       description, 
       slug, 
       anchormessage,
-      comments
+      comments,
+      tableOfContents
     } = props;
     const fullUrl = `https://khalilstemmler.com${slug}`;
     const anchors = this.hasAnchors() ? this.getAnchors() : [];
@@ -113,7 +114,11 @@ class Article extends React.Component {
     return (
       <section className="article-container">
         <h1 className="article-title">{title}</h1>
-        <ArticleAnchors message={anchormessage} anchors={anchors}/>
+        <ArticleAnchors 
+          toc={tableOfContents} 
+          message={anchormessage} 
+          anchors={anchors}
+        />
         <ArticleCategory category={category}/>
         <ArticleDescription 
           description={description}/>
@@ -124,7 +129,9 @@ class Article extends React.Component {
         
         <br/>
         <img src={image}/>
-        <HTMLContent content={html}/>
+        <div id="html-wrapper">
+          <HTMLContent content={html}/>
+        </div>
 
         <hr/>
         <br/>

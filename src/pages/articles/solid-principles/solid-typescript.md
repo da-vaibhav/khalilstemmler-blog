@@ -13,6 +13,17 @@ category: Software Design
 image: /img/blog/solid/solid.png
 published: true
 anchormessage: This article is part of Solid Book - The Software Design & Architecture Handbook. <a href="https://solidbook.io">Get the book</a>.
+tableOfContents: 
+- id: S-Single-Responsibilty-Principle
+  name: Single Responsibility Principle
+- id: Open-Closed-Principle
+  name: Open-Closed Principle
+- id: Liskov-Substition-Principle
+  name: Liskov Substitution Principle
+- id: Interface-Segregation-Principle
+  name: Interface Segregation Principle
+- id: Dependency-Inversion-Principle
+  name: Dependency Inversion Principle
 ---
 
 <div class="solid-book-cta course-cta">
@@ -96,7 +107,7 @@ If you ask me, the primary benefits of becoming well acquainted with the SOLID p
 
 So let's go through em!
 
-### <a  class="anchor" name="SRP"></a>S: Single Responsibilty Principle
+### S: Single Responsibilty Principle
 
 > "A class or function should only have one reason to change."
 
@@ -170,7 +181,7 @@ Much better. Each employee in this social structure has a single place where we 
 
 The key thing is to separate responsibility based on the **social structure** of the users using the application.
 
-### <a  class="anchor" name="OCP"></a>Open-Closed Principle
+### Open-Closed Principle
 
 Intially written about by Bertrand Meyer in the 1980s, Uncle Bob calls this the "most important principle of object-oriented design".
 
@@ -241,7 +252,7 @@ Again,
 
 > Higher level-components are protected from changes to lower level components.
 
-### <a  class="anchor" name="LSP"></a>Liskov-Substition Principle
+### Liskov-Substition Principle
 
 Introduced by Barbara Liskov in the 1980s, she said:
 
@@ -335,7 +346,7 @@ Because we can interchange which implementation of an `IEmailService` we pass in
 
 ---
 
-### <a  class="anchor" name="ISP"></a>Interface Segregation Principle
+### Interface Segregation Principle
 
 > Prevent classes from relying on things that they dont need
 
@@ -389,7 +400,7 @@ class User1Operations implements U1Ops {
 
 Now `User1` only needs `User1Operations` and not all the other junk from `Operations`.
 
-### <a  class="anchor" name="DIP"></a>Dependency Inversion Principle
+### Dependency Inversion Principle
 
 > Abstractions should not depend on details. Details should depend on abstractions.
 

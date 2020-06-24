@@ -96,6 +96,10 @@ export const pageQuery = graphql`
         image
         category
         anchormessage
+        tableOfContents {
+          id 
+          name
+        }
       }
     }
     comments: allComment {

@@ -15,6 +15,28 @@ tags:
 category: Client-Side Architecture
 image: /img/blog/client-side-architecture/Frame_3.24_(1).png
 published: true
+tableOfContents: 
+- id: Why-we-need-a-client-side-architecture-standard
+  name: Introduction
+- id: We-need-a-shared-language-to-talk-about-client-side-architecture
+  name: Shared language
+- id: Client-side-needs--testability-flexibility-and-maintainability
+  name: Client-side needs
+- id: The-most-influential-client-side-architecture-design-principles
+  name: Influential design principles
+- id: Presentation-components
+  name: Presentation components
+- id: UI-logic
+  name: UI logic
+- id: Containercontroller
+  name: Container/controller components
+- id: Interaction-layer
+  name: Interaction layer
+- id: -Networking--data-fetching-infrastructure
+  name: Networking & data fetching
+- id: Conclusion
+  name: Conclusion
+  
 ---
 
 
@@ -884,7 +906,7 @@ Of course, you could call everything a *component,* but then the explicit commun
 
 The container component is pretty bare. That's a good thing. They're not supposed to contain any functionality. They're not worthy of unit testing. They're just meant to stitch things together. However, if you want to do an integration test all features of a page, just load up the container component and have at 'er.
 
-### 🧠 Interaction layer
+### Interaction layer
 
 > Model behavior
 
