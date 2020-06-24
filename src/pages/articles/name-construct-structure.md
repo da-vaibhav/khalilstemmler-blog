@@ -10,7 +10,7 @@ tags:
   - JavaScript
 category: Software Design
 image: /img/blog/name-construct-structure/banner.png
-published: true
+published: false
 anchormessage: This article is from "Name, Construct & Structure". <a href="https://solidbook.io">Get it while it's free</a>.
 ---
 
