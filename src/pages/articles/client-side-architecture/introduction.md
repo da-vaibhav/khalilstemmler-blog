@@ -445,7 +445,7 @@ Using Apollo Client, React Hooks + xState
 
 Using Apollo Client and plain JavaScript
 
-- Interaction logic: Hooks + pojo-observer
+- Interaction logic: Hooks + [pojo-observer](https://github.com/xolvio/pojo-observer)
 - State Management: Apollo Client (global state)
 - Data fetching: Apollo Client
 
@@ -1109,7 +1109,7 @@ A state management library has *three* responsibilities:
 
 - **Storage** — Hold onto global state somewhere, usually in a store / client-side cache.
 - **Updating data** — Make changes to the data in the cache.
-- ** reactivity**  — Provide a way for view-layer presentation components to subscribe to data, and then re-render when data changes.
+- **Reactivity**  — Provide a way for view-layer presentation components to subscribe to data, and then re-render when data changes.
 
 #### State management and networking are often solved together
 
