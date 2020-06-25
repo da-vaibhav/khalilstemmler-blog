@@ -999,7 +999,7 @@ For example:
 - *Given* no todos exist, *when* I perform `CreateTodo`, *then* I should see one todo.
 - *Given* I have 3 completed todos and 1 uncompleted one, *when* I perform `CompleteAllTodos`, *then* I should have 4 completed todos.
 
-If you're familiar with Domain-Driven Design concepts, this is the Application Service equivalent. In the 
+If you're familiar with [Domain-Driven Design](/articles/domain-driven-design-intro/) concepts, this is the [Application Service](/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/#Application-Services) equivalent.
 
 #### Shared behavior
 
