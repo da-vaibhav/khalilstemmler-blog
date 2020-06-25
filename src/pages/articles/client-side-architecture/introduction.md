@@ -1101,6 +1101,8 @@ export function createTodoIfNotExists (text: string) {
 }
 ```
 
+<p class="special-quote"><b>Note</b>: The code example above is a demonstration of doing a little too much. Recall that a Redux Thunk is an interaction layer concern? That means it should <i>only</i> be responsible for the decision-making logic, and no <i>signalling</i> logic, since request signalling is a concern of the networking & data-fetching layer. It can be hard to establish these concrete boundaries sometimes. Especially if the library or framework wasn't designed with separation of concerns in mind.</p>
+
 ### 🗄️ State management & storage (infrastructure)
 
 > Storage, updating data, reactivity
