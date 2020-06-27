@@ -1210,7 +1210,7 @@ I know this article expressed a lot of new ideas. To be completely honest, I spe
 
 But let's look at what we've covered. Zooming out, we started with this:
 
-![img/blog/client-side-architecture/Untitled.png](/img/blog/client-side-architecture/Untitled.png)
+![img/blog/client-side-architecture/Untitled.png](/img/blog/client-side-architecture/model-view-presenter.png)
 
 And then zooming in, we landed on this:
 
