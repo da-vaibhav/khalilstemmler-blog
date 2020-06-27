@@ -96,6 +96,8 @@ export const pageQuery = graphql`
         image
         category
         anchormessage
+        guestPost
+        guestPostAuthor
       }
     }
     comments: allComment {

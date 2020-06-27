@@ -13,9 +13,9 @@ category: Serverless
 published: true
 image: /img/blog/serverless/aws-lambda.png
 displayInArticles: false
+guestPost: true
+guestPostAuthor: Gilad Maayan
 ---
-
-<p class="special-quote"><b>Guest post</b>: This article is a guest post by blogger, Gilad Maayan.</p>
 
 In this article, you will learn how cold start issues occur, what factors contribute to cold starts, and how to manage Lambda cold starts.
 

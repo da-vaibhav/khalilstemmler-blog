@@ -16,6 +16,7 @@ import { ShareButtons } from '../../share-buttons';
 import ArticleAnchors from './ArticleAnchors';
 import { getCategoryIconAndBanner } from '../../../../utils/blog';
 import { Comments } from '../../../comments';
+import ArticleGuestPostHeading from './ArticleGuestPostHeading'
 
 class Article extends React.Component {
   constructor (props) {
@@ -90,6 +91,10 @@ class Article extends React.Component {
       return this.props.image;
     }
   }
+
+  isGuestPost () {
+    return this.props.guestPost === true
+  }
   
   render () {
     const props = this.props;
@@ -118,15 +123,19 @@ class Article extends React.Component {
           message={anchormessage} 
           anchors={anchors}
         />
-        <ArticleCategory category={category}/>
+        <ArticleCategory 
+          category={category}/>
         <ArticleDescription 
           description={description}/>
         <Tags 
           tags={tags}/>        
         <br/>
         <img src={image}/>
+        {this.isGuestPost() ? <ArticleGuestPostHeading author={this.props.guestPostAuthor}/> : ''}
         <div id="html-wrapper">
-          <HTMLContent content={html}/>
+          <HTMLContent 
+            content={html}
+          />
         </div>
 
         <hr/>
