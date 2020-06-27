@@ -1130,7 +1130,7 @@ Apollo Client handles both the state management and data fetching concerns.
 Two types of state exist at this layer. They are:
 
 - `remote (global)` state — The state that exists behind APIs in services. When we make `queries` for remote state, we hold onto a local copy of it accessible from a global scope.
-- `shared (global)` : As soon as some state belongs to more than one component, it's *shared* global state. Components shouldn't need to know about each other (a header shouldn't need to know about a todo).
+- `shared (global)` : We said earlier, "as soon as some state belongs to more than one component, it's *shared* global state". And you'll know you need this when **two components that rely on the same state don't need to know about each other**. To be clear, this type of state can be live in the interaction layer (via hooks and context, for example). Though sometimes, when working with `remote(global) state`, it's preferable to have something act as a single source of truth, especially if you need to mix remote and local state.
 
 #### Mixture of remote and local state
 
