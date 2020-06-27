@@ -1194,7 +1194,7 @@ export const GET_ALL_TODOS = gql`
 
 #### Storage facades
 
-Most of the time we don't provide direct access to whats stored within the *store*. Usually, there's some *facade*, and API, that sits in-front of the data and provides ways for us to interact with it.
+Most of the time we don't provide direct access to whats stored within the *store*. Usually, there's some *facade*, an API, that sits in-front of the data and provides ways for us to interact with it.
 
 In Redux, this is `dispatch` (for updates) and connect (for reactivity).
 
