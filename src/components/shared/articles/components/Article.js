@@ -6,7 +6,6 @@ import HTMLContent from '../../../shared/HTMLContent'
 import { kebabCase } from 'lodash'
 import { Link } from 'gatsby'
 import AboutTheAuthor from './AboutTheAuthor'
-import AuthorCredit from './AuthorCredit'
 import Authors from '../constants/AuthorConstants'
 import { Tags } from '../../tags'
 import ArticleDescription from './ArticleDescription'
@@ -123,10 +122,7 @@ class Article extends React.Component {
         <ArticleDescription 
           description={description}/>
         <Tags 
-          tags={tags}/>
-        {/* <AuthorCredit 
-          author={Authors.khalil}/> */}
-        
+          tags={tags}/>        
         <br/>
         <img src={image}/>
         <div id="html-wrapper">

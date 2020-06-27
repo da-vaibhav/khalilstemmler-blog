@@ -17,6 +17,9 @@ import sequelizeBanner from '../../../../images/blogs/banners/sequelize-banner.p
 import toolingIcon from '../../../../images/blogs/icons/tooling-icon.png';
 import toolingBanner from '../../../../images/blogs/banners/tooling-banner.png'
 
+import serverlessIcon from '../../../../images/blogs/icons/serverless-icon.png';
+import serverlessBanner from '../../../../images/blogs/banners/serverless-banner.png'
+
 export const BlogCategoryType = {
   'TypeScript': {
     icon: typeScriptIcon,
@@ -37,6 +40,10 @@ export const BlogCategoryType = {
   'Tooling': {
     icon: toolingIcon,
     banner: toolingBanner,
+  },
+  'Serverless': {
+    icon: serverlessIcon,
+    banner: serverlessBanner,
   },
   Fallback: {
     icon: mysteryIcon,
