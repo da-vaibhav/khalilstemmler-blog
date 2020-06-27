@@ -1208,7 +1208,7 @@ Even SQL is a form of a storage facade. It's a powerful pattern.
 
 I know this article expressed a lot of new ideas. To be completely honest, I spent about three months thinking about this off and on, and I'm likely going to spend some time revising it.
 
-But let's look at where we've covered. Zooming out, we started with this:
+But let's look at what we've covered. Zooming out, we started with this:
 
 ![img/blog/client-side-architecture/Untitled.png](/img/blog/client-side-architecture/Untitled.png)
 
